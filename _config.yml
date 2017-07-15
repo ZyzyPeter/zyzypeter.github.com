@@ -1,11 +1,15 @@
 auto: true
 
-#markdown: rdiscount
-highlighter: 'pygments'
-#paginate: 8
-permalink: /:title
 
-title: Hyper Hamster
-url: http://mukosame.github.io
+markdown: rdiscount
+
+highlighter: 'pygments'
+
+link: /:title
+
+
+title: ZyZy's blog
+url: http://zyzypeter.github.io
+
 feed: /atom.xml
 
