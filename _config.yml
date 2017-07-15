@@ -7,13 +7,13 @@
 
 Site Settings
 locale                   : "en"
-title                    : "ZyZy's Blog"
+title                    : "ZyZy Blog"
 title_separator          : "-"
 name                     : "ZyZy"
 description              : ""
 url                      : "https://zyzypeter.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/blog"# the subpath of your site, e.g. "/blog"
-# repository               : "ZyzyPeter/zyzypeter.github.com" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "ZyzyPeter/zyzypeter.github.com" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/forest.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
