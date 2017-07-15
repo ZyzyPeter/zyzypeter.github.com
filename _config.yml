@@ -1,5 +1,13 @@
-title: Midnight theme
-description: Midnight is a theme for GitHub Pages.
-show_downloads: true
+title: Zyzy's Blog
+
+
+author:
+ name:ZyZy
+ email:1304137697@qq.com
+ github:ZyzyPeter
+
+show_downloads: 
+true
 google_analytics:
-theme: 
+
+theme: jekyll-theme-midnight
