@@ -17,7 +17,7 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: ZyZy
-# organization: zkh360.com
+organization: Topview_ML
 # organization_url: http://www.zkh360.com
 github_username: ZyzyPeter
 location: Guangzhou, China
@@ -73,12 +73,12 @@ gems:
     - jekyll-feed
     - jemoji
 #     - jekyll-mentions
-collections:
+# collections:
     wiki:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: ZyzyPeter/zyzypeter.github.io
 
 # ---------------- #
 #      Comments    #
