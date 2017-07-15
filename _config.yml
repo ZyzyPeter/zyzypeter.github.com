@@ -3,7 +3,7 @@ author:
  name:ZyZy
  email:1304137697@qq.com
  github:ZyzyPeter
-show_downloads: 
+show_downloads: true
 true
-google_analytics:
-
+google_analytics:true
+theme:jekyll-theme-midnight
