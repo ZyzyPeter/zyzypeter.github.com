@@ -8,7 +8,7 @@ title: ZBlog
 subtitle: ""
 description: "ZyZy的个人博客"
 keywords: machine-learning, zyzy, python
-favicon: /favicon.ico
+# favicon: /favicon.ico
 timezone: Asia/Guangzhou
 encoding: "utf-8"
 side_bar_repo_limit: 5
