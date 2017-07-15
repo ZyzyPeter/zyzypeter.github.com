@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 线性代数 马尔科夫矩阵 矩阵的特征值和特征向量
-categories: linear-algebra,machine-learning
+categories: linear-algebra
 description: 关于矩阵幂的稳态
-keywords: linear-algebra,machine-learning
+keywords: linear-algebra, machine-learning
 ---
 
 资料来源参考连接：
@@ -61,10 +61,10 @@ $$$
 并以变换后的基向量作为原向量的基，如图:$$$
 
 线性变换前
-![线性变换前](img/线性变换示意1.png)
+![线性变换前](/images/blog/linear-transformation1.png)
 
 线性变换（拉伸旋转）后：
-![](img/线性变换示意2.png)
+![](/images/blog/linear-transformation2.png)
 
 假设我们有一个旋转矩阵$$$T=\left[\begin{matrix}cosθ&-sinθ\\sinθ&cosθ\end{matrix}\right]$$$，那么通过左乘这个旋转矩阵，就可以实现一个向量在二维平面上的旋转。
 

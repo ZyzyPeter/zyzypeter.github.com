@@ -1,4 +1,10 @@
-# 线性代数 向量空间，子空间，列空间和零空间
+---
+layout: post
+title: 线性代数 向量空间，子空间，列空间和零空间
+categories: linear-algebra
+description: 线性代数中的空间概念
+keywords: linear-algebra, machine-learning
+---
 
 ## 向量空间与子空间
 
@@ -19,7 +25,7 @@
 ### 定义
 
 当我们希望用矩阵来表示一个向量空间的时候，就需要使用到**列空间**，假设我们有一个四维矩阵
-$$$
+$$
 \left[
 	\begin{matrix}
     1&1&2\\
@@ -29,13 +35,13 @@ $$$
     \end{matrix}
 \right
 ]
-$$$
+$$
 矩阵中的每一列都可以作为一个四维空间中的列向量，那么由矩阵中**所有列向量在该空间中进行线性运算所得到的所有向量组成的子空间**，就是这个矩阵的列空间。
 
 ### 性质
 
-$设线性方程Ax=b，A为一个m*n维的矩阵，该等式展开如下$
-$$$
+$$设线性方程Ax=b，A为一个m*n维的矩阵，该等式展开如下$$
+$$
 \left[
 	\begin{matrix}
     a_{11}&a_{12}&a_{13}&...&a_{1n}\\
@@ -68,10 +74,12 @@ $$$
 ]
 \\
 则Ax=b有非零解当且仅当b属于A的列空间
-$$$
+$$
 
 ## 零空间
 
-$当线性方程Ax=b中的b为0的时候，即Ax=0时，所有x的解向量的集合所构成的空间即为$
+$$当线性方程Ax=b中的b为0的时候，即Ax=0时，所有x的解向量的集合所构成的空间即为$$
 
 **零空间**。零空间也是向量空间，它具有向量空间的所有性质。
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>

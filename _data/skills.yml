@@ -1,6 +1,8 @@
-# - name: ML Engineer Keywords
+- name: Data-mining Engineer
   keywords:
       - Java
       - Machine Learning
       - Python
-      - Design Patterns
+      - pandas
+      - numpy
+      - matplotlib
