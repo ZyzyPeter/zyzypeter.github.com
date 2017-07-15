@@ -1,7 +1,8 @@
-title: Zyzy's Blog
-author:
- name:ZyZy
- email:1304137697@qq.com
- github:ZyzyPeter
+title: Midnight 
+theme
+description: Midnight is a theme for GitHub Pages.
+
 show_downloads: true
-markdown:redcrapet
+
+google_analytics:
+theme: 
