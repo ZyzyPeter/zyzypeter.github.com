@@ -73,7 +73,7 @@ gems:
     - jekyll-feed
     - jemoji
 #     - jekyll-mentions
-# collections:
+collections:
     wiki:
         output: true
         permalink: /wiki/:path/
