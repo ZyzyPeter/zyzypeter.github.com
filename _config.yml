@@ -78,7 +78,7 @@ gems:
         output: true
         permalink: /wiki/:path/
 
-repository: ZyzyPeter/zyzypeter.github.io
+# repository: ZyzyPeter/zyzypeter.github.io
 
 # ---------------- #
 #      Comments    #
