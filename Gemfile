@@ -1,2 +1,3 @@
-gem "jekyll-theme-midnight"
+source 'https://rubygems.org'
 
+gemspec
