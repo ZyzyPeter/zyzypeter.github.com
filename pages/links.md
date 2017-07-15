@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links
-description: 
+description: Emmmmmm
 keywords: 友情链接
 comments: true
 menu: 链接
