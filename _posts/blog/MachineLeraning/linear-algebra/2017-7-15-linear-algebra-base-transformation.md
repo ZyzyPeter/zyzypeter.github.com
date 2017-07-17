@@ -80,7 +80,7 @@ x=Wc\\
 $$
 
 进行基变换时会发生两件事：
-1. 每个向量都会有一组新的坐标，$$x=Wc$$就是新旧坐标的关系
-2. 每个线性变换都会有一个新的矩阵，$$B=M^{-1}AM$$就是新旧矩阵的关系。
+1. 每个向量都会有一组新的坐标，$$$x=Wc$$$就是新旧坐标的关系
+2. 每个线性变换都会有一个新的矩阵，$$$B=M^{-1}AM$$$就是新旧矩阵的关系。
 
 <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
