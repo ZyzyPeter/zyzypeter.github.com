@@ -2,8 +2,8 @@
 layout: post
 title: 机器学习 第一章 机器学习分类 线性回归 梯度下降 正规方程组
 categories: machine-learning
-description: 线性代数
-keywords: linear-algebra, machine-learning
+description: 机器学习
+keywords: linear-algebra, Theories of probability and statistics, machine-learning
 ---
 
 参考资料来源于：
