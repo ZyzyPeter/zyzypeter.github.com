@@ -160,7 +160,3 @@ roles:[role:{"rolename"},db:"databasename"]
 )
 ```
 自定义角色允许我们对一个角色的权限进行细分。
-
-
-
-
