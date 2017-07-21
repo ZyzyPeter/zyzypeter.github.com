@@ -71,7 +71,7 @@ roles:[{role:"rolename",db:"databasename"},...]
 
 | 参数 | 功能 |
 |--------|--------|
-|    username    |用户名        |
+|username|用户名|
 |password|密码|
 |roles|角色，表示该用户的权限|
 |rolename|权限类型，可以自行定义，也可以使用内建的权限名|
@@ -80,7 +80,7 @@ roles:[{role:"rolename",db:"databasename"},...]
 常用的内建角色如下表：
 
 |角色大类| 内建权限名 | 功能 |
-|---|--------|--------|
+|--------|--------|--------|
 |数据库用户角色（Database User Roles）|read|授予User只读数据的权限|
 ||readWrite|授予User读写数据的权限|
 |数据库管理角色（Database Administration Roles）|dbAdmin|在当前dB中执行管理操作|
@@ -96,6 +96,7 @@ roles:[{role:"rolename",db:"databasename"},...]
 ||clusterManager|授予管理和监控集群的权限（A user with this role can access the config and local databases, which are used in sharding and replication, respectively.）|
 ||clusterMonitor|授予监控集群的权限，对监控工具具有readonly的权限|
 ||hostManager|管理Server|
+
 更多内建角色可参考文档[MongoDB的内建角色](http://docs.mongoing.com/manual-zh/reference/built-in-roles.html)
 
 示例：
