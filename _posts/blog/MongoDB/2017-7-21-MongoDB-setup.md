@@ -1,5 +1,13 @@
-# Mongo DB 的介绍与安装
+---
+layout: post
+title: MongoDB的介绍与安装
+categories: MongoDB
+description: 数据库
+keywords: sql, nosql, mongodb
+---
+
 ## 简介
+
 Mongodb，分布式文档存储数据库，由`C++` 语言编写，旨在为WEB应用提供可扩展的高性能数据存储解决方案。MongoDB是一个高性能，开源，无模式的文档型数据库，是当前NoSql数据库中比较热门的一种。它在许多场景下可用于替代传统的关系型数据库或键/值存储方式。Mongo使用`C++`开发。
 
 与关系型数据库sql相比，非关系型数据库以键值对作为存储方式（类似于json），结构不像关系型数据库中的字段一样稳定。例如同样是存储字段`班级 姓名 学号`，关系型数据库通过组建一个包含该类字段所有类别的表，在表下的所有数据行都拥有`班级 姓名 学号`，但非关系型数据库仅将其作为一个键值对的一条信息存储在一个文档中，该文档并不需要确保它所包含的每一条信息都拥有`班级 姓名 学号`，可以只有其中一或两个亦或是其它不同的类型。
@@ -8,7 +16,9 @@ Mongodb，分布式文档存储数据库，由`C++` 语言编写，旨在为WEB�
 ![](http://www.runoob.com/wp-content/uploads/2013/10/Figure-1-Mapping-Table-to-Collection-1.png)
 
 MongoDB就是一种非关系型数据库，它的优点就在于相比sql，用户的访问速度更快，获取数据的方式更加便携。
+
 ## 安装
+
 首先需要在官网地址上下载安装包
 [MongoDB下载地址](https://www.mongodb.com/download-center#community)
 安装包安装完成后，还需要给MongoDB手动**创建一个数据目录**，用以存贮MongoDB的数据。
@@ -31,6 +41,7 @@ indows Server 2008 R2
 2015-09-25T15:54:09.298+0800 I CONTROL  [initandlisten] db version v3.0.6
 ```
 ### 将MongoDB作为Windows服务运行
+
 可以用管理权限打开cmd，然后执行以下命令将MongoDB服务器作为Windows服务运行
 ```
 mongod.exe --bind_ip yourIPadress --logpath "C:\data\dbConf\mongodb.log" --logappend --dbpath "C:\data\db" --port yourPortNumber --serviceName "YourServiceName" --serviceDisplayName "YourServiceName" --install
@@ -56,6 +67,7 @@ mongodb的启动参数与说明
 |--install|指定作为一个Windows服务安装。|
 
 ### MongoDB后台管理shell
+
 shell指“提供用户使用界面”的软件。
 要进入MongoDB的后台管理，我们需要先打开MongoDB安装目录下的bin目录，然后执行mongo.exe文件，这里的MongoDBShell指的是MongoDB自带的交互式Javascript shell，是用来对MongoDB进行MongoDB进行操作和管理的交互式环境。
 

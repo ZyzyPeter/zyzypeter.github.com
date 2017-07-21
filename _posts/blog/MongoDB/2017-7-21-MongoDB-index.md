@@ -1,4 +1,10 @@
-# MongoDB索引
+---
+layout: post
+title: MongoDB索引
+categories: MongoDB
+description: 数据库
+keywords: sql, nosql, mongodb
+---
 
 ## 简介
 

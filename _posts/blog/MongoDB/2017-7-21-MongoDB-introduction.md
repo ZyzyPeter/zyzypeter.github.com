@@ -1,4 +1,11 @@
-# MongoDB的概念解析
+---
+layout: post
+title: MongoDB的概念解析
+categories: MongoDB
+description: 数据库
+keywords: sql, nosql, mongodb
+---
+
 先来看看MongoDB与sql的常用术语与概念对比
 
 | SQL术语/概念 | MongoDb术语/概念 |解释 （SQL/MongoDB）|
@@ -14,6 +21,7 @@
 |mysql|mongo|客户端|
 
 ## 数据库（database）
+
 一个mongodb中可以建立多个数据库。
 MongoDB的默认数据库为“db”，该数据库存储在data目录中。
 MongoDB的单个实例可以容纳多个独立的数据库，每一个都有自己的集合和权限，不同的数据库也放置在不同的文件中。

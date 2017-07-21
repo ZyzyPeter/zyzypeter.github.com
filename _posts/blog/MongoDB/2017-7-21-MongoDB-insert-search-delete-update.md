@@ -1,4 +1,10 @@
-# MongoDB的简单使用（增删查改）
+---
+layout: post
+title: MongoDB的简单使用（增删查改）
+categories: MongoDB
+description: 数据库
+keywords: sql, nosql, mongodb
+---
 
 ## 连接数据库
 
@@ -217,12 +223,12 @@ WriteResult({ "nInserted" : 1 })
 { "_id" : ObjectId("5961bd0f540435d89b5c5ed3"), "x" : 2 }
 { "_id" : ObjectId("5961bd0f540435d89b5c5ed4"), "x" : 3 }
 ```
-小于或等于使用`{KEY：{$lte:<value>}}`，更多方法可以参考下表
+小于或等于使用`{KEY ：{$lte:<value>}}`，更多方法可以参考下表
 
 | 操作 | 格式 |
 |--------|--------|
 |小于|	`{<key>:{$lt:<value>}}`|
-|小于或等于|	`{{<key>:{$lte:<value>}}`|
+|小于或等于|	` { { <key> :{$lte:<value>}}`|
 |大于|	`{<key>:{$gt:<value>}}`|
 |大于或等于|`	{<key>:{$gte:<value>}}`|
 |不等于|	`{<key>:{$ne:<value>}}`|

@@ -6,8 +6,6 @@ description: 概率论第三章
 keywords: theories of probability and statistics
 ---
 
-# 概率论 多维随机变量及其分布
-
 资料来源：
 [概率论与数理统计公式整理 百度文库](https \://wenku.baidu.com/view/11d3577e5acfa1c7aa00cc9b.html)
 

@@ -1,4 +1,10 @@
-# MongoDB Python对MongoDB的简单操作（连接，增删查改）
+---
+layout: post
+title: MongoDB Python对MongoDB的简单操作（连接，增删查改）
+categories: MongoDB
+description: 数据库
+keywords: sql, nosql, mongodb
+---
 
 ## 安装pymongo
 
