@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 概率论 多维随机变量及其分布
-categories: theories of probability and statistics
+categories: theories-of-probability-and-statistics
 description: 概率论第三章
 keywords: theories of probability and statistics
 ---

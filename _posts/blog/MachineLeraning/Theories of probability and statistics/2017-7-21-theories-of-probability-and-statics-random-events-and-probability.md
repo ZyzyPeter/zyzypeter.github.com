@@ -1,11 +1,20 @@
-# 概率论 随机事件及其概率
+---
+layout: post
+title: 概率论 随机事件及其概率
+categories: theories-of-probability-and-statistics
+description: 概率论第一章
+keywords: theories of probability and statistics
+---
+
+资料来源：
+[概率论与数理统计公式整理 百度文库](https \://wenku.baidu.com/view/11d3577e5acfa1c7aa00cc9b.html)
 
 ### 排列组合公式
 
-$$$P^n_m = \frac{m!}{(m-n)!}$$$
+$$P^n_m = \frac{m!}{(m-n)!}$$
 从m个人中挑出n个人进行排列的可能数量
 
-$$$C^n_m = =\frac{m!}{n!(m-n)!}$$$
+$$C^n_m = =\frac{m!}{n!(m-n)!}$$
 从m个人中挑出n个人进行组合的可能数
 
 ### 加法和乘法原理
@@ -87,7 +96,7 @@ A∩B=Φ，则表示A与B不可能同时发生，称事件A与事件B**互不相
 1. 0≤P（A）≤1
 2. P（Ω）=1
 3. 对于两两互不相容的事件$A_1$,$A_2$...有
-$$$P\left(\bigcup^\infty_{i=1}A_i\right)=\sum^\infty_{i=1}P(A_i)$$$
+$$P\left(\bigcup^\infty_{i=1}A_i\right)=\sum^\infty_{i=1}P(A_i)$$
 亦称为有可列可加性。
 
 则称P（A）为事件A的概率。
@@ -101,12 +110,12 @@ $$$P\left(\bigcup^\infty_{i=1}A_i\right)=\sum^\infty_{i=1}P(A_i)$$$
 性质：
 
 设任一事件A，它是由$ω_1,ω_2...ω_m$组成的，则有
-$$$P(A)={P(ω_1)∪P(ω_2)∪...∪P(ω_m)}=P(ω_1)+P(ω_2)+...+P(ω_m)=\frac{m}{n}=\frac{A所包含的基本事件数}{基本事件总数}$$$
+$$P(A)={P(ω_1)∪P(ω_2)∪...∪P(ω_m)}=P(ω_1)+P(ω_2)+...+P(ω_m)=\frac{m}{n}=\frac{A所包含的基本事件数}{基本事件总数}$$
 
 ### 几何概型
 
 若随机实验的结果为**无限不可数**并且每个结果出现的可能**均匀**，同时样本空间中的每一个基本事件可以使用一个**有界区域**来描述，则称此随机试验为**几何概型**。对任一事件A，
-$$$P(A)=\frac{L(A)}{L(Ω)}$$$
+$$P(A)=\frac{L(A)}{L(Ω)}$$
 其中L为几何度量（又称几何测度，包括长度，面积，体积等）
 
 ### 加法与减法公式
@@ -133,7 +142,7 @@ P ( A - B ) = P ( A ) - P ( AB )
 
 **P（AB）=P（A）P（B|A）**
 更一般的，对事件$A_1,A_2...A_n$，若$P(A_1A_2..A_n)>0$，则
-$$$P(A_1A_2...A_n)=P(A_1)P(A_2|A_1)P(A_3|A_1A_2)...P(A_n|A_1A_2...A_{n-1})$$$
+$$P(A_1A_2...A_n)=P(A_1)P(A_2|A_1)P(A_3|A_1A_2)...P(A_n|A_1A_2...A_{n-1})$$
 
 ### 独立性
 
@@ -161,9 +170,9 @@ $$$P(A_1A_2...A_n)=P(A_1)P(A_2|A_1)P(A_3|A_1A_2)...P(A_n|A_1A_2...A_{n-1})$$$
 2. $A\subset \bigcup^n_{i=1}B_i$
 
 则有：
-$$$P(A)=P(AB_1)+P(AB_2)+...+P(AB_n)$$$
-$$$=P(A)P(B_1|A)+P(A)P(B_2|A)+...+P(A)P(B_i|A)$$$
-$$$=P(B_1)P(A|B_1)+P(B_2)P(A|B_2)+...+P(B_i)P(A|B_i)$$$
+$$P(A)=P(AB_1)+P(AB_2)+...+P(AB_n)$$
+$$=P(A)P(B_1|A)+P(A)P(B_2|A)+...+P(A)P(B_i|A)$$
+$$=P(B_1)P(A|B_1)+P(B_2)P(A|B_2)+...+P(B_i)P(A|B_i)$$
 
 ### 贝叶斯公式
 
@@ -172,6 +181,7 @@ $$$=P(B_1)P(A|B_1)+P(B_2)P(A|B_2)+...+P(B_i)P(A|B_i)$$$
 2. $A\subset \bigcup^n_{i=1}B_i 且 P(A)>0$
 
 则有
-$$$P(B_i|A)=\frac{P(B_i)P(A|B_i)}{\sum^n_{j=1}P(B_j)P(A|B_j)},i=1,2,3,...,n$$$
+$$P(B_i|A)=\frac{P(B_i)P(A|B_i)}{\sum^n_{j=1}P(B_j)P(A|B_j)},i=1,2,3,...,n$$
 此公式即为贝叶斯公式。
 
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
