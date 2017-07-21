@@ -6,6 +6,8 @@ description: 数据库
 keywords: sql, nosql, mongodb
 ---
 
+# MongoDB安全
+
 MongoDB在默认情况下是不开启权限认证的，所以我们可以直接在cmd使用“mongo”命令打开客户端。要开启安全认证，MongoDB提供了我们两个方法：
 1. auth
 2. keyfile
