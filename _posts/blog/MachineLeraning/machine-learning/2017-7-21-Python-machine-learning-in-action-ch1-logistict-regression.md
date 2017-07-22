@@ -31,7 +31,7 @@ keywords: linear-algebra, Theories of probability and statistics, machine-learni
 
 因为我们已经确定是逻辑回归模型（若是未知模型的数据我们还需要从头推导模型），所以作为分类器的输出函数我们选择逻辑函数，又称sigmoid函数：
 
-![](\\images\blog\mla1-1.png)
+![](\images\blog\mla1-1.png)
 
 我们将sigmoid函数的输入$$θ^Tx$$记为z，z由下面这个公式导出：
 
@@ -46,11 +46,11 @@ $$
 
 作为第一次训练，我们选择比较简单的参数更新方法：梯度上升法，它细分为两种，一种是精度比较高但消耗比较大的批梯度上升法：
 
-![](\\images\blog\mla1-2.png)
+![](\images\blog\mla1-2.png)
 
 还有一种是随机梯度上升法：
 
-![](\\images\blog\mla1-3.png)
+![](\images\blog\mla1-3.png)
 
 ## 训练算法
 
