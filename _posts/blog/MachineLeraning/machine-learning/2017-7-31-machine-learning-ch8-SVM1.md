@@ -693,4 +693,52 @@ $$
 
 就是$$x_i$$在间隔边界上的数学表示。
 
+## 小结
+
+一般来说，在这种信息量比较大的学习之后，我都有必要做个简单的总结：
+
+1.问题
+
+给定一个特征空间上的训练集$$T=\{(x_1,y_1),...,(x_N,y_N)\}$$,求能够将训练集以最大间隔分开的分离超平面与相应的分类决策函数。
+
+2.原始问题
+
+将问题转化成原始问题的形式：
+
+$$\because d=\frac{1}{\mid\mid w\mid\mid}(wx+b)$$
+
+$$\therefore γ_i=y_i\frac{1}{\mid\mid w\mid\mid}(wx+b)$$
+
+$$\therefore question:$$
+
+$$max_{w,b}~~~γ$$
+
+$$s.t.~y_i\frac{1}{\mid\mid w\mid\mid}(wx+b) ≥γ,i=1,2,...,N$$
+
+由于该问题不是凸优化问题不方便解决，我们需要先转换其形式为函数间隔：
+
+$$max_{w,b}~~~\frac{\hat{γ}}{\mid\mid w\mid\mid}$$
+
+$$s.t.~y_i(wx+b) ≥\hat{γ},i=1,2,...,N$$
+
+然后设$$\hat{γ}=1$$得到（因为函数间隔的数值不影响超平面的具体位置）
+
+$$max_{w,b}~~~\frac{1}{\mid\mid w\mid\mid}$$
+
+$$s.t.~y_i(wx+b) ≥1,i=1,2,...,N$$
+
+将$$max_{w,b}~~~\frac{1}{\mid\mid w\mid\mid}$$转换成求最小值的模式以转换成凸二次规划问题
+
+$$min_{w,b}~~~\frac{1}{2}\mid\mid w\mid\mid^2$$
+
+$$s.t.~y_i(wx+b) -1 ≥0,i=1,2,...,N$$
+
+最大间隔分离超平面存在且唯一。
+
+3.对偶算法
+
+![](\images\blog\ml8-62.jpg)
+
+![](\images\blog\ml8-63.jpg)
+
 <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
