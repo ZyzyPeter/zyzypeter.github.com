@@ -709,7 +709,7 @@ $$\because d=\frac{1}{\mid\mid w\mid\mid}(wx+b)$$
 
 $$\therefore γ_i=y_i\frac{1}{\mid\mid w\mid\mid}(wx+b)$$
 
-$$\therefore question:$$
+$$\therefore problem:$$
 
 $$max_{w,b}~~~γ$$
 
