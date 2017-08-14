@@ -428,7 +428,6 @@ test()
 
 嗯，看来效果还不算太坏。
 
-源代码可以在我的github里面找到：[Machine-Learning-in-action
-](https://github.com/ZyzyPeter/Machine-Learning-in-action)
+源代码可以在我的github里面找到：[Machine-Learning-in-action](https://github.com/ZyzyPeter/Machine-Learning-in-action)
 
 <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
