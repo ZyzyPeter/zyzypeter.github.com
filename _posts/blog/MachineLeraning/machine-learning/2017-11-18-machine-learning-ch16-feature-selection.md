@@ -6,6 +6,10 @@ description: 机器学习
 keywords: linear-algebra, Theories of probability and statistics, machine-learning
 ---
 
+资料来源参考：
+
+清华大学出版社 周志华 《机器学习》 第十一章
+
 ## 子集搜索与评价
 
 在机器学习中我们将用于描述任务数据的属性称之为**特征（feature）**，对当前学习任务有用的属性则称之为**相关特征（relevant feature）**，没用的则称之为**无关特征（irrelevant feature）**。从给定的特征集合中选择出相关特征子集的过程则称为**特征选择（feature selection）**
