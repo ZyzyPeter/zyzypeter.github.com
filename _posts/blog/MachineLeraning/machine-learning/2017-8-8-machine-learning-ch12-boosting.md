@@ -12,6 +12,8 @@ keywords: linear-algebra, Theories of probability and statistics, machine-learni
 
 清华大学出版社 李航 《统计学习方法》 第八章
 
+## 前言
+
 前面几天一直都在写支持向量机的代码，但最后感觉还是写不出符合要求的代码，因此就仅留了一个备份在[我的github](https://github.com/ZyzyPeter)做参考。
 
 ## 个体与集成
