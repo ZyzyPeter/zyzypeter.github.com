@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 机器学习 第十五章 聚类任务 原型聚类习（Boosting） AdaBoost
+title: 机器学习 第十五章 聚类任务 原型聚类
 categories: machine-learning
 description: 机器学习
 keywords: linear-algebra, Theories of probability and statistics, machine-learning
